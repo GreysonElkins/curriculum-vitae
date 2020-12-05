@@ -1,9 +1,35 @@
 .room {
-  width: 100%;
   padding-top: 10em;
+  margin: 0 auto;
+  width: 80%;
 
   * {
     max-width: 100%;
   }
 }
+
+.desk-top {
+  display: flex;
+  // justify-content: space-between;
+  justify-content: center;
+  align-items: flex-end;
+  margin: 0 auto;
+  position: relative;
+  width: 90%;
+  z-index: 1000;
+
+  .speaker {
+    width: 15%;
+  }
+  
+  .laptop {
+    width: 24%;
+    height: 90%;
+  }
+}
+
+.desk {
+  margin-top: -2.5%
+}
+
 
